@@ -1,0 +1,15 @@
+{
+  "channels": [
+    {
+      "name": "/test",
+      "type": "aos.examples.Ping"
+    },
+    {
+      "name": "/test",
+      "type": "aos.examples.Pong"
+    }
+  ],
+  "imports": [
+    "aos.json"
+  ]
+}

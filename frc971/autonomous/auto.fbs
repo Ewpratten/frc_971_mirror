@@ -1,0 +1,13 @@
+namespace frc971.autonomous;
+
+table AutonomousActionParams {
+  // The mode from the sensors when auto starts.
+  mode:int;
+}
+
+table Goal {
+  run:uint;
+  params:AutonomousActionParams;
+}
+
+root_type Goal;

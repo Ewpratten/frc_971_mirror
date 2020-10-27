@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "target": "es6",
+    "lib": ["es6", "dom"]
+  },
+  "bazelOptions": {
+    "workspaceName": "971-Robot-Code"
+  }
+}
